@@ -194,7 +194,7 @@ div#content table tr td.td_67 a {
 }
 
 div#content table tr td.td_67 a[href^="tel"]:link,
-div#content table tr td.td_67 a[href^="tel"]:visited, 
+div#content table tr td.td_67 a[href^="tel"]:visited,
 div#content table tr td.td_67 a[href^="tel"]:hover {
 	border: none;
 	color: #666;
@@ -248,11 +248,6 @@ div#content table tr td.td_67 ul.list li {
 	background: transparent url('../img/icons/bullet_green.png') no-repeat 0.5rem 50%; /* 8 / 16 */
 	padding-left: 2.0625rem; /* 33 / 16 */
 	padding-right: 1rem; /* 16 / 16 */
-}
-
-div#content table tr td.td_67 div#socialshareprivacy {
-	padding: 1.8rem 0 0 0;
-	display: none;
 }
 
 /* FOOTER ############################################################################# */
@@ -400,7 +395,7 @@ div#footer table tr td a {
 	}
 
 	div#content table tr td.td_67 a[href^="tel"]:link,
-	div#content table tr td.td_67 a[href^="tel"]:visited, 
+	div#content table tr td.td_67 a[href^="tel"]:visited,
 	div#content table tr td.td_67 a[href^="tel"]:hover {
 		border-bottom: 0.0625rem rgb(245, 160,15) dotted; /* 1 / 16 */
 		color: rgb(245, 160,15);
@@ -410,10 +405,6 @@ div#footer table tr td a {
 		text-align: left;
 		display: inline-block;
 		margin: 0 auto;
-	}
-
-	div#content table tr td.td_67 div#socialshareprivacy {	
-		display: none;
 	}
 
 	div#footer table tr td a {

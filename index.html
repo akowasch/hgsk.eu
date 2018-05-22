@@ -6,8 +6,8 @@
     <!-- Metatags der Seite -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="author" content="Haus- und Gartenservice Kowasch">
-    <meta name="keywords" content="hausmeister, münchen, hausmeisterdienst, handwerkerservice, gartenpflege, hausreinigung, winterdienst, entrümpelungen, hausmeister münchen">
-    <meta name="description" content="Ihr kompetenter Ansprechpartner rund um Haus und Garten für München und Umgebung. Zu unseren Dienstleistugnen gehören Hausmeisterdienste, Handwerkerservices, Gartenpflege, Winterdienste und Entrümpelungen.">
+    <meta name="keywords" content="hausmeister, münchen, hausmeisterdienst, gartenpflege, hausreinigung, winterdienst, entrümpelungen, hausmeister münchen">
+    <meta name="description" content="Ihr kompetenter Ansprechpartner rund um Haus und Garten für München und Umgebung. Zu unseren Dienstleistugnen gehören Hausmeisterdienste, Gartenpflege, Winterdienste und Entrümpelungen.">
     <meta name="robots" content="all">
     <!-- Einstellung für mobile Geräte -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,19 +18,10 @@
     <link rel="subresource" href="img/header/logo.svg">
     <link rel="subresource" href="img/header/garten.svg">
     <link rel="subresource" href="img/header/bau.svg">
-    <link rel="subresource" href="img/icons/bullet_orange.png">
-    <link rel="prefetch" href="img/icons/bullet_green.png">
-    <link rel="prefetch" href="img/icons/google-plus.png">
-    <link rel="prefetch" href="img/icons/facebook.png">
-    <link rel="prefetch" href="img/icons/twitter.png">
-    <link rel="prefetch" href="img/content/profile.jpg">
-    <link rel="prefetch" href="//maps.googleapis.com/maps/api/staticmap?center=München&amp;zoom=10&amp;scale=2&amp;size=340x200&amp;maptype=roadmap&amp;markers=color:red%7C48.18252,11.48735&amp;sensor=false">
-    <link rel="prerender" href="ueber-uns.html">
     <!-- Stylesheets zur Darstellung der Seite -->
     <link rel="stylesheet" href="css/reset.css" media="all">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600" media="all">
     <link rel="stylesheet" href="css/content.css" media="all">
-    <link rel="stylesheet" href="css/shariff.min.css" media="all">
     <!-- Script für Google Analytics -->
     <script>
       var gaProperty = 'UA-43698602-1';
@@ -85,8 +76,6 @@
             <p>
               Wenn Sie Fragen zu unseren Serviceangeboten haben, oder einfach nur weitere Informationen wünschen, schreiben Sie uns eine E-Mail oder rufen Sie uns einfach an.
             </p>
-            <div id="socialshareprivacy"></div>
-            <!-- <div class="shariff" data-backend-url="http://213.165.90.59:3001" data-lang="de" data-theme="grey"></div> -->
           </td>
           <td class="td_33">
             <div class="container yellow">
@@ -101,7 +90,6 @@
               <h2>Dienstleistungsübersicht</h2>
               <ul>
                 <li><a href="hausmeisterdienst.html">Hausmeisterdienst</a></li>
-                <li><a href="handwerkerservice.html">Handwerkerservice</a></li>
                 <li><a href="gartenpflege.html">Gartenpflege</a></li>
                 <li><a href="winterdienst.html">Winterdienst</a></li>
                 <li><a href="entruempelung.html">Entrümpelungen</a></li>
@@ -121,33 +109,25 @@
         </tr>
       </table>
     </div>
-    <script src="js/jquery-2.1.4.min.js"></script> 
-    <script src="js/jquery.socialshareprivacy.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script>
       $(document).ready(function(){
         if ($('.navbarToggle').is(':visible')) {
           $('#navbar ul').hide();
-          $('#socialshareprivacy').hide();
         }
         else {
           $('#navbar ul').show();
-          $('#socialshareprivacy').show();
         }
         $('.navbarToggle').click(function(e) {
           $('#navbar ul').toggle();
-        });
-        $('#socialshareprivacy').socialSharePrivacy({
-          uri : "http://hgs.kowasch.de"
         });
       });
       $(window).resize(function(){
         if ($('.navbarToggle').is(':visible')) {
           $('#navbar ul').hide();
-          $('#socialshareprivacy').hide();
         }
         else {
           $('#navbar ul').show();
-          $('#socialshareprivacy').show();
         }
       });
     </script>
