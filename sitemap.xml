@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://hgs.kowasch.de/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/ueber-uns.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/dienstleistungen.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/kontakt.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/impressum.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/datenschutz.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/hausmeisterdienst.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/handwerkerservice.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/gartenpflege.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/winterdienst.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://hgs.kowasch.de/entrümpelung.html</loc>
+  <priority>0.80</priority>
+</url>
+</urlset>
