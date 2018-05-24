@@ -15,7 +15,6 @@ b {
 div#header {
 	position: relative;
 	background: #d8edb6;
-	margin-top: 1.5625rem; /* 25 / 16 */
 	padding-top: 2.1875rem; /* 35 / 16 */
 	padding-bottom: 3.125rem; /* 50 / 16 */
 }
