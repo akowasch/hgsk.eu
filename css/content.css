@@ -59,7 +59,7 @@ div#navigation div#navbar span.navbarToggle {
 
 div#navigation div#navbar ul li {
 	display: inline;
-	padding: 0 48px;
+	padding: 0 33px;
 	border-left: 1px solid #ccc;
 }
 
@@ -96,12 +96,88 @@ div#content {
 	padding: 1.25rem 1.25rem 2.8125rem 1.25rem; /* 20 / 16 ; 45 / 16 */
 }
 
+div#content h1 {
+	color: #444;
+	font-size: 2rem; /* 32 / 16 */
+	line-height: 2rem; /* 32 / 16 */
+	margin-bottom: 1.125rem; /* 18 / 16 */
+	padding-bottom: 0.75rem; /* 12 / 16 */
+	border-bottom: 0.0625rem solid rgba(0, 0, 0, .12); /* 1 / 16 */
+	text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff; /* 1 / 16 */
+}
+
+div#content a {
+	color: rgb(245, 160,15);
+	text-decoration: none;
+	border-bottom: 0.0625rem dotted rgb(245, 160,15); /* 1 / 16 */
+}
+
+div#content a[href^="tel"]:link,
+div#content a[href^="tel"]:visited,
+div#content a[href^="tel"]:hover {
+	border: none;
+	color: #666;
+	cursor: text;
+}
+
+div#content p {
+	margin-top: 1.125rem; /* 18 / 16 */
+	text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff; /* 1 / 16 */
+	text-align: justify;
+}
+
+div#content h1 + p {
+	margin-top: 0;
+}
+
+div#content span.inline-block {
+	display: inline-block;
+	width: 4.375rem; /* 70 / 16 */
+	padding-right: 0.9375rem; /* 15 / 16 */
+}
+
+div#content p.img {
+	border: 0.0625rem solid #dadada; /* 1 / 16 */
+	background: #fff;
+	padding: 0.375rem; /* 6 / 16 */
+	float: left;
+	border-radius: 0.3125rem; /* 5 / 16 */
+	margin-right: 1.5625rem; /* 18 / 16 ; 25 / 16 */
+}
+
+div#content p.profile img {
+	width: 15.3125rem; /* 245 / 16 */
+	display: block;
+	border-radius: 0.3125rem; /* 5 / 16 */
+}
+
+div#content p.map img {
+	width: 22.8125rem; /* 365 / 16 */
+	display: block;
+	border-radius: 0.3125rem; /* 5 / 16 */
+}
+
+div#content ul.list {
+	padding-top: 0.625rem; /* 10 / 16 */
+}
+
+div#content ul.list li {
+	list-style-type: none;
+	background: transparent url('../img/icons/bullet_green.png') no-repeat 0.5rem 0.4rem; /* 8 / 16 */
+	padding-left: 2.0625rem; /* 33 / 16 */
+	padding-right: 1rem; /* 16 / 16 */
+}
+
 div#content table {
 	width: 100%;
 }
 
 div#content table tr td {
 	vertical-align: top;
+}
+
+div#content table tr td.td_67 {
+	width: 69%;
 }
 
 div#content table tr td.td_33 {
@@ -171,83 +247,6 @@ div#content table tr td.td_33 div.yellow div {
 div#content table tr td.td_33 div.yellow a {
 	border: none;
 	cursor: text;
-}
-
-div#content table tr td.td_67 {
-	width: 69%;
-}
-
-div#content table tr td.td_67 h1 {
-	color: #444;
-	font-size: 2rem; /* 32 / 16 */
-	line-height: 2rem; /* 32 / 16 */
-	margin-bottom: 1.125rem; /* 18 / 16 */
-	padding-bottom: 0.75rem; /* 12 / 16 */
-	border-bottom: 0.0625rem solid rgba(0, 0, 0, .12); /* 1 / 16 */
-	text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff; /* 1 / 16 */
-}
-
-div#content table tr td.td_67 a {
-	color: rgb(245, 160,15);
-	text-decoration: none;
-	border-bottom: 0.0625rem dotted rgb(245, 160,15); /* 1 / 16 */
-}
-
-div#content table tr td.td_67 a[href^="tel"]:link,
-div#content table tr td.td_67 a[href^="tel"]:visited,
-div#content table tr td.td_67 a[href^="tel"]:hover {
-	border: none;
-	color: #666;
-	cursor: text;
-}
-
-div#content table tr td.td_67 p {
-	margin-top: 1.125rem; /* 18 / 16 */
-	text-shadow: 0.0625rem 0.0625rem 0.0625rem #fff; /* 1 / 16 */
-	text-align: justify;
-}
-
-div#content table tr td.td_67 h1 + p {
-	margin-top: 0;
-}
-
-div#content table tr td.td_67 span.inline-block {
-	display: inline-block;
-	width: 4.375rem; /* 70 / 16 */
-	padding-right: 0.9375rem; /* 15 / 16 */
-	font-weight: 600;
-}
-
-div#content table tr td.td_67 p.img {
-	border: 0.0625rem solid #dadada; /* 1 / 16 */
-	background: #fff;
-	padding: 0.375rem; /* 6 / 16 */
-	float: left;
-	border-radius: 0.3125rem; /* 5 / 16 */
-	margin-right: 1.5625rem; /* 18 / 16 ; 25 / 16 */
-}
-
-div#content table tr td.td_67 p.profile img {
-	width: 15.3125rem; /* 245 / 16 */
-	display: block;
-	border-radius: 0.3125rem; /* 5 / 16 */
-}
-
-div#content table tr td.td_67 p.map img {
-	width: 22.8125rem; /* 365 / 16 */
-	display: block;
-	border-radius: 0.3125rem; /* 5 / 16 */
-}
-
-div#content table tr td.td_67 ul.list {
-	padding-top: 0.625rem; /* 10 / 16 */
-}
-
-div#content table tr td.td_67 ul.list li {
-	list-style-type: none;
-	background: transparent url('../img/icons/bullet_green.png') no-repeat 0.5rem 50%; /* 8 / 16 */
-	padding-left: 2.0625rem; /* 33 / 16 */
-	padding-right: 1rem; /* 16 / 16 */
 }
 
 /* FOOTER ############################################################################# */

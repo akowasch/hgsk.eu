@@ -1,48 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://hgsk.eu/</loc>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/ueber-uns.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/dienstleistungen.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/kontakt.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/impressum.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/datenschutz.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/hausmeisterdienst.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/gartenpflege.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/winterdienst.html</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://hgsk.eu/entrümpelung.html</loc>
-  <priority>0.80</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hgsk.eu/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/ueber-uns.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/dienstleistungen.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/kontakt.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/impressum.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/datenschutz.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/hausmeisterdienst.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/gartenpflege.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/winterdienst.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://hgsk.eu/entrümpelung.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
 </urlset>
