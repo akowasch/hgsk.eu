@@ -59,7 +59,7 @@ div#navigation div#navbar span.navbarToggle {
 
 div#navigation div#navbar ul li {
 	display: inline;
-	padding: 0 33px;
+	padding: 0 32px;
 	border-left: 1px solid #ccc;
 }
 
@@ -71,6 +71,7 @@ div#navigation div#navbar a {
 	padding: 0.25rem 0; /* 4 / 16 */
 	text-decoration: none;
 	text-transform: uppercase;
+	font-weight: 400;
 }
 
 div#navigation div#navbar a,
@@ -85,7 +86,6 @@ div#navigation div#navbar a:hover {
 
 div#navigation div#navbar a.active {
 	color: rgb(245, 160,15);
-	font-weight: 400;
 }
 
 /* CONTENT ############################################################################ */
